@@ -5,6 +5,6 @@ Script çıktısı bir text editörüne kopyalandıktan sonra IP adreslerine mat
 
 IP Regex: \b(\d{1,3}\.){3}\d{1,3}\b
 
-![Usage-1](https://user-images.githubusercontent.com/45037356/150563325-b0d85f4c-cfc0-4701-ae4c-c9e5e88d6128.png)
-![Usage-2](https://user-images.githubusercontent.com/45037356/150563334-4ffabbcf-e4a1-4467-9ce9-710fb25ce0bc.png)
-![Usage-3](https://user-images.githubusercontent.com/45037356/150563344-f615d1f0-5464-42ad-9629-d665060e3a32.png)
+![Usage-1](https://user-images.githubusercontent.com/45037356/150563601-45cb0e29-683b-4e0c-849a-fe31e3abf421.png)
+![Usage-2](https://user-images.githubusercontent.com/45037356/150563614-ad7a1a7e-de5c-498b-a0dc-3df864408c32.png)
+![Usage-3](https://user-images.githubusercontent.com/45037356/150563673-6652e6db-10bc-4d15-8136-b4bbd8531b97.png)
