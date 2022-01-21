@@ -1,4 +1,4 @@
-[string[]] $hostnames = Get-Content -Path C:\Users\Desktop\hostnames.txt
+[string[]] $hosts = Get-Content -Path Z:\Hostnames.txt
 
 $ips = ""
 foreach ($myhost in $hosts)
@@ -6,7 +6,7 @@ foreach ($myhost in $hosts)
     try
     {
         $ipaddress = [System.Net.Dns]::GetHostAddresses($myhost)
-        write-host "SOLVED " + $myhost + " to -> " + $ipaddress
+        write-host "s0lv3d:" $myhost" to -->" $ipaddress
         if ([string]::IsNullOrEmpty($ips))
         {
 
@@ -21,4 +21,6 @@ foreach ($myhost in $hosts)
         write-host $_
     }
 }
-write-host $ips
+write-host
+write-host "One-line All IP addresses:" $ips
+write-host
